@@ -39,6 +39,10 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok:1.18.10'
 }
 
+tasks.withType(JavaCompile){
+	options.encoding="UTF-8"
+}
+
 test {
 	useJUnitPlatform()
 }
