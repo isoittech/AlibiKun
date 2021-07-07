@@ -8,13 +8,15 @@ Windows端末においてスクリーンロック時間を管理できない（�
 
 ## how to use
 
-1. build/libs/AlibiKun-x.x.x-yyyy.jarをダブルクリック
+- build/libs/AlibiKun-x.x.x-yyyy.jarをダブルクリック
 
-1. java -jar ${JAR PATH}/AlibiKun-x.x.x-yyyy.jar  
+- java -jar ${JAR PATH}/AlibiKun-x.x.x-yyyy.jar  
 ※1分ごとに起動
 
-1. java -jar ${JAR PATH}/AlibiKun-x.x.x-yyyy.jar ＜INTEGER＞   
+- java -jar ${JAR PATH}/AlibiKun-x.x.x-yyyy.jar ＜INTEGER＞   
 ※指定した時間（分）ごとに起動
+
+- jarと同じ位置にAlibiKun.properties（intervalというkey-valueを持つ）を配置し、jarをダブルクリックするとintervalで指定した間隔で起動する。
 
 ## how to build
 
